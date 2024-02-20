@@ -31,6 +31,9 @@ export const Navbar = ({
           </h1>
         </Link>
       </div>
+      <div>
+        Hello
+      </div>
       <div className="flex items-center gap-x-3">
         {!isPro && (
           <Button onClick={proModal.onOpen} size="sm" variant="premium">
